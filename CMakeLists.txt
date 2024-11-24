@@ -14,7 +14,7 @@ add_executable(Cloth_Simulation
         particle.h
 )
 
-list(APPEND CMAKE_PREFIX_PATH "D:/A Path Bin/C++ Path bin/SFML-2.6.1/lib/cmake/SFML")
+list(APPEND CMAKE_PREFIX_PATH "/path/to/sfml")
 
 find_package(SFML COMPONENTS system audio graphics REQUIRED)
 
